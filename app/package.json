@@ -1,0 +1,15 @@
+{
+  "name": "sample-node-app",
+  "version": "1.0.0",
+  "description": "Simple Node app for CI -> ECR demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -e \"console.log('No tests configured')\""
+  },
+  "author": "Himanshu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
